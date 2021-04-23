@@ -1,6 +1,8 @@
 .grid-25 {
   display: grid;
-  grid-template-columns: 18% auto;
+  grid-template-columns: 25% auto 10%;
+  grid-gap: 15px;
+  place-items: center;
 }
 
 .grid-50 {
@@ -14,6 +16,7 @@
   grid-template-columns: auto auto auto;
   justify-content: space-between;
   grid-gap: 10px;
+  place-items: center;
 }
 
 .grid-p {

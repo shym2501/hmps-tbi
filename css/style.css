@@ -36,12 +36,12 @@ body {
   background: #1f63b4;
 }
 
-h4 {
+.h4 {
 	color: #ffef4a;
 	font-size: 24px;
 }
 
-h4 span {
+.h4 span {
 	/*color: #ffc107;*/
 	color: #fff;
 }

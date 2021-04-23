@@ -101,3 +101,61 @@
   display: none;
   transition: 1s;
 }
+
+.accor {
+  overflow: hidden;
+}
+
+.accor-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #2c3e50;
+  font-weight: bold;
+  cursor: pointer;
+  /* Icon */
+}
+
+.accor-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.accor-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+
+.accor-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.accor-close:hover {
+  background: #1a252f;
+}
+
+.accor-input:checked + .accor-label {
+  background: #1a252f;
+}
+.accor-input:checked + .accor-label::after {
+  transform: rotate(90deg);
+}
+.accor-input:checked ~ .accor-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+.accor-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
