@@ -56,6 +56,12 @@ h4 span {
   max-width: 100%;
 }
 
+.img-brand {
+  max-width: 100%;
+  width: auto;
+  height: 50px;
+}
+
 .logout {
 	margin: 5px 15px;
 	background: #dc3545;
