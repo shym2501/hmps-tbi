@@ -2,8 +2,12 @@
 	color: #375d99;
 }
 .blue400 {
+  color: #4680dc;
+}
+.blue300 {
   color: #62a0ff;
 }
+
 
 .yellow {
 	color: #f4b700;
@@ -11,4 +15,7 @@
 
 .gray {
 	color: #727272;
+}
+.gray100 {
+  color: #C5C5C5;
 }
