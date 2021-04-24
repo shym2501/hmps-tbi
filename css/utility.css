@@ -78,6 +78,10 @@
   justify-content: center;
 }
 
+.txt-justify {
+  text-align: justify;
+}
+
 /*===== Margin =====*/
 .mt-5 {
   margin-top: 5px;
@@ -96,7 +100,10 @@
 }
 
 .mt-250 {
-  margin-top: 300px;
+  margin-top: 280px;
+}
+.ml-15 {
+  margin-left: 15px;
 }
 
 /*===== Text =====*/
@@ -122,6 +129,6 @@
   text-indent: 20px;
 }
 
-.p-5 {
-  padding: 2rem;
+.m-50 {
+  margin: 2rem;
 }
