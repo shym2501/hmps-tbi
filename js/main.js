@@ -8,6 +8,5 @@ window.addEventListener("scroll", function() {
 
 const path = window.location.pathname.replace(/[&\/\\#]/g, "")
 const tab = document.querySelector(`a[href='${path}']`)
-
-tab.classList.add('blue800')
-tab.classList.remove('gray100')
+tab.classList.add('blue800');
+tab.classList.remove('gray100');
