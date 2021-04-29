@@ -1,13 +1,13 @@
 {
   "short_name": "HMPS TBI Official",
-  "name": "tbiofficial",
+  "name": "HMPS TBI Official",
     "start_url": "index.html",
   "background_color": "#e2eef6",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
   "prefer_related_applications": true,
-  "description": "Progressive Web Application by Michael Stattelman.",
+  "description": "Progressive Web Application by Shym2501.",
   "theme_color": "#4680dc",
   "icons": [
         {
