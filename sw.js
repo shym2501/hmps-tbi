@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tbi-cache-v1'
+const CACHE_NAME = 'tbi-cache-v3'
 const urlsToCache = [
   '/',
   '/index.html',
