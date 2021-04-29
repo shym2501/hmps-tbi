@@ -1,6 +1,7 @@
 const CACHE_NAME = 'tbi-cache-v1'
 const urlsToCache = [
   '/',
+  '/index.html',
   '/about.html',
   '/guide.html',
   '/structure.html',
