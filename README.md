@@ -1,8 +1,5 @@
-# pwa-template
+# HMPS TBI
 This a base template for a Progressive Web Application.
-
-
-![Android](emulator.png)
 
 
 This is just a skeleton structure for you to insert your code, css and js files and provide you with the prompt "add to homescreen" on mobile devices. 
@@ -29,9 +26,4 @@ This is just a skeleton structure for you to insert your code, css and js files 
 
                 |- icons/
                   - * (all standard icons and favicons)
-                
-                
-#Demo:(----Visit demo from a mobile device to see the prompt----)
-
-https://pwa-mjs.firebaseapp.com/
 
