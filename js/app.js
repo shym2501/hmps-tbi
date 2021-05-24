@@ -8,18 +8,18 @@ if ('serviceWorker' in navigator) {
     })
 }
 
-function SW(args) {
+/* function SW(args) {
   this.button = $(args.button);
   this.toast = $(args.toast);
 
   this.registerSW();
 };
 
-SW.prototype.registerSW = function() {
+ *SW.prototype.registerSW = function() {
   /*
    *  Register SW dimulai disini
    *  Copy script yang dicantumkan di artikel
-   */
+   *
   if (!navigator.serviceWorker) return;
 
   const that = this;
@@ -76,3 +76,4 @@ SW.prototype.updateReady = function(worker) {
     worker.postMessage({ action: 'skipWaiting' })
   })
 }
+*/
