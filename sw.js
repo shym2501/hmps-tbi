@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tbi-cache-v1'
+const CACHE_NAME = 'tbi-cache-v2'
 const urlsToCache = [
   '/',
   '/index.html',
@@ -19,6 +19,7 @@ const urlsToCache = [
   '/img/tbi.png',
   '/img/tbimedia.png',
   '/img/tbishop.png',
+  '/img/2020.jpg',
   '/fontawesome/css/all.css',
   '/fontawesome/js/all.js',
   '/fontawesome/metadata/icons.json'
