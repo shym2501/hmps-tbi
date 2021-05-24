@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tbi-cache-v1'
+const CACHE_NAME = 'tbi-cache-v2'
 const urlsToCache = [
   '/',
   '/index.html',
@@ -57,4 +57,10 @@ self.addEventListener('activate', function(event){
       )
     })
   )
+})
+
+self.addEventListener('message', function(event) {
+  if (event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
 })
