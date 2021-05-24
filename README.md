@@ -9,6 +9,7 @@ This is just a skeleton structure for you to insert your code, css and js files 
 #Directory Structure:
 
             |- index.html
+            |- about.html
             
             |- manifest.json
             
@@ -19,6 +20,7 @@ This is just a skeleton structure for you to insert your code, css and js files 
             |- scripts/
 
               |- app.js
+              |- main.js
 
             |- img/    
 
