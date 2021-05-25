@@ -63,8 +63,7 @@ body {
 }
 
 .img-fix {
-  height: 100px;
-  width: 50%;
+  width: 100%;
 }
 
 section p, section ol li {
