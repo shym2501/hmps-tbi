@@ -1,3 +1,4 @@
+// cache name
 const CACHE_NAME = 'tbi-cache-v2'
 const urlsToCache = [
   '/',
